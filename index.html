@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avantika Padhi - Online Resume</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Inter for readability, and 'Space Mono' for a subtle techy feel in headings -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="scroll-smooth">
+
+    <!-- Navigation Bar -->
+    <nav class="p-4 shadow-md sticky top-0 z-50 rounded-b-lg">
+        <div class="container flex justify-between items-center flex-wrap">
+            <div class="text-2xl font-bold text-amber-400">Avantika Padhi</div>
+            <div class="flex space-x-6 md:space-x-8 text-lg font-medium">
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#education">Education</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mt-8">
+
+        <!-- Hero/About Section -->
+        <section id="about" class="header-bg text-center">
+            <div class="mb-6">
+                <!-- User's professional photo -->
+                <img src="images/avantika.jpeg" alt="Avantika Padhi"
+                    class="rounded-full mx-auto w-36 h-36 border-4 border-amber-400 shadow-lg object-cover object-center">
+            </div>
+            <h1 class="text-5xl font-extrabold mb-4">Hi, I'm Avantika Padhi!</h1>
+            <p class="text-xl font-light mb-6 leading-relaxed text-gray-200">
+                A passionate <span class="text-amber-400">MERN Stack Developer</span>
+                with experience building <span class="text-amber-400">responsive and scalable web applications</span>.
+                I thrive on <span class="text-amber-400">crafting robust back-ends and intuitive front-ends</span>.
+            </p>
+            <div class="flex justify-center space-x-4">
+                <a href="#projects"
+                    class="bg-amber-500 text-gray-900 font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-amber-600 transition duration-300 hover:shadow-amber-500/50">View
+                    My Work</a>
+                <a href="your_resume.pdf" download
+                    class="bg-purple-700 text-white font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-purple-800 transition duration-300 hover:shadow-purple-700/50">Download
+                    Resume</a>
+            </div>
+        </section>
+        <!-- Experience Section -->
+        <section id="experience">
+            <h2 class="text-4xl font-bold mb-8 text-center">Experience</h2>
+            <div class="space-y-8">
+                <!-- Smart Delhi Ideathon Entry -->
+                <div
+                    class="flex flex-col md:flex-row justify-between items-start md:items-center border-b border-gray-600 pb-6">
+                    <div>
+                        <h3 class="text-2xl font-semibold text-amber-400">⏩Participant & Lead Developer</h3>
+                        <p class="text-lg text-gray-400">Smart Delhi Ideathon, Delhi</p>
+                        <ul class="list-disc list-inside text-gray-300 mt-2 space-y-1">
+                            <li>Developed "UrbanEase", a responsive website prototype with Google Maps integration.</li>
+                            <li>Implemented AI vehicle and parking spot availability detection to address traffic
+                                congestion.</li>
+                            <li>Showcased innovative solutions for urban mobility challenges.</li>
+                        </ul>
+                    </div>
+                    <p class="text-md text-gray-500 md:text-right mt-2 md:mt-0">March 2025</p>
+                </div>
+                <!-- College Tech Programs Entry -->
+                <div
+                    class="flex flex-col md:flex-row justify-between items-start md:items-center border-b border-gray-600 pb-6 last:border-b-0">
+                    <div>
+                        <h3 class="text-2xl font-semibold text-amber-400">⏩Program Participant</h3>
+                        <p class="text-lg text-gray-400">Various College Tech Programs (Online)</p>
+                        <ul class="list-disc list-inside text-gray-300 mt-2 space-y-1">
+                            <li>Attended mentor-led sessions on MERN Stack Development, Open Source, and DevOps.</li>
+                            <li>Gained foundational knowledge in AI/ML basics.</li>
+                            <li>Enhanced technical skills through practical demonstrations and exercises.</li>
+                        </ul>
+                    </div>
+                    <p class="text-md text-gray-500 md:text-right mt-2 md:mt-0">Month Year – Month Year (or specific
+                        dates if known)</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education">
+            <h2 class="text-4xl font-bold mb-8 text-center">Education</h2>
+            <div class="space-y-6">
+                <div>
+                    <h3 class="text-2xl font-semibold text-amber-400">✅Dr. Akhilesh Das Gupta Institute of Professional
+                        Studies - Affiliated to Guru Gobind Singh Indraprastha University (GGSIPU), Delhi</h3>
+                    <p class="text-lg text-gray-400">Bachelor of Technology in [Your Major, e.g., Computer Science]</p>
+                    <p class="text-md text-gray-500"><span class="font-bold">CGPA: 9.803</span> (Till 2nd Year)</p>
+                    <ul class="list-disc list-inside text-gray-300 mt-2 space-y-1">
+                        <li>Relevant Coursework:
+                            <tr>
+                                <td>MERN Stack - Web Development</td>
+                                <td>MongoDB, Express.js, React.js, Node.js</td>
+                            </tr>
+                            <tr>
+                                <td>Data Structures & Algorithms</td>
+                                <td>Arrays, Linked Lists, Trees, Sorting, Searching</td>
+                            </tr>
+                            <tr>
+                                <td>Database Management</td>
+                                <td>SQL, NoSQL, Database Design, Query Optimization</td>
+                            </tr>
+                        </li>
+                        <!-- <li>Awards/Honors: [Any achievements]</li> -->
+                    </ul>
+                </div>
+                <!-- School Education - 12th Grade -->
+                <div>
+                    <h3 class="text-2xl font-semibold text-amber-400">✅Mayur Public School, I.P. Extension, Delhi</h3>
+                    <p class="text-lg text-gray-400">Higher Secondary (12th Grade)</p>
+                    <p class="text-md text-gray-500"><span class="font-bold">Percentage: 95.4%</span></p>
+                </div>
+                <!-- School Education - 10th Grade -->
+                <div>
+                    <h3 class="text-2xl font-semibold text-amber-400">✅Mayur Public School, I.P. Extension, Delhi</h3>
+                    <p class="text-lg text-gray-400">Secondary (10th Grade)</p>
+                    <p class="text-md text-gray-500"><span class="font-bold">Percentage: 89%</span></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications">
+            <h2 class="text-4xl font-bold mb-8 text-center underline decoration-amber-400 decoration-4 underline-offset-8 tracking-wide">
+                Certifications
+            </h2>
+            <div class="space-y-4 text-center">
+                <p class="text-xl text-gray-300">
+                    <span class="text-amber-400 font-semibold">•</span> Udemy MERN Stack
+                    <a href="YOUR_UDEMY_MERN_CERT_LINK" target="_blank" class="certificate-link ml-2 text-amber-400">View
+                        Certificate</a>
+                </p>
+                <p class="text-xl text-gray-300">
+                    <span class="text-amber-400 font-semibold">•</span> Great Learning OOPS with C++
+                    <a href="YOUR_GREAT_LEARNING_OOPS_CERT_LINK" target="_blank" class="certificate-link ml-2 text-amber-400">View
+                        Certificate</a>
+                </p>
+                <p class="text-xl text-gray-300">
+                    <span class="text-amber-400 font-semibold">•</span> Smart Delhi Ideathon Certificate
+                    <a href="certificates/SDI.pdf" target="_blank" class="certificate-link ml-2 text-amber-400">View
+                        Certificate</a>
+                </p>
+                <p class="text-xl text-gray-300">
+                    <span class="text-amber-400 font-semibold">•</span> Data Analytics Certification (HP)
+                    <a href="certificates/Data Analytics.pdf" target="_blank" class="certificate-link ml-2 text-amber-400">View
+                        Certificate</a>
+                </p>
+                <p class="text-xl text-gray-300">
+                    <span class="text-amber-400 font-semibold">•</span> Microsoft Copilot 365 (LinkedIn Certified)
+                    <a href="certificates/MS Copilot 365.pdf" target="_blank" class="certificate-link ml-2 text-amber-400">View
+                        Certificate</a>
+                    </p>
+                <p class="text-xl text-gray-300">
+                    <span class="text-amber-400 font-semibold">•</span> Basics of AI and Generative AI (LinkedIn
+                    Certified)
+                    <a href="certificates/Gen AI.pdf" target="_blank" class="certificate-link ml-2 text-amber-400">View
+                        Certificate</a>
+                </p>
+            </div>
+        </section>
+
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2 class="text-4xl font-bold mb-8 text-center">Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-center">
+                <div>
+                    <h3 class="text-xl font-semibold text-amber-400 mb-2">MERN Stack</h3>
+                    <p class="text-gray-300">MongoDB, Express.js, React.js, Node.js</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-amber-400 mb-2">Frontend Development</h3>
+                    <p class="text-gray-300">HTML5, CSS3, JavaScript (ES6+), React.js, Redux, Tailwind CSS, Bootstrap
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-amber-400 mb-2">Backend Development</h3>
+                    <p class="text-gray-300">Node.js, Express.js, RESTful APIs, Passport.js, JWT, Socket.io</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-amber-400 mb-2">Databases</h3>
+                    <p class="text-gray-300">MongoDB, Mongoose, PostgreSQL, MySQL</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-amber-400 mb-2">Tools & Version Control</h3>
+                    <p class="text-gray-300">Git, GitHub, VS Code, npm, Yarn, Postman, Heroku, Netlify</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-amber-400 mb-2">Soft Skills</h3>
+                    <p class="text-gray-300">Problem-solving, Collaboration, Agile Methodologies, Communication,
+                        Adaptability, Learning Agility</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2 class="text-4xl font-bold mb-8 text-center">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 - Example MERN Project -->
+                <div class="project-card">
+                    <h3 class="text-2xl font-semibold text-amber-400 mb-2">E-commerce Web App</h3>
+                    <p class="text-gray-300 mb-4">
+                        A full-stack e-commerce platform built with MERN stack, featuring user authentication,
+                        product management, shopping cart functionality, and payment integration.
+                    </p>
+                    <p class="text-gray-400 text-sm mb-4">Technologies: React, Node.js, Express, MongoDB, Redux, JWT,
+                        Stripe API</p>
+                    <div class="flex space-x-4">
+                        <a href="https://github.com/your-github/ecommerce-mern-app" target="_blank"
+                            class="hover:underline">GitHub</a>
+                        <a href="#" target="_blank" class="hover:underline">Live Demo (if applicable)</a>
+                    </div>
+                </div>
+                <!-- Project 2 - Example MERN Project -->
+                <div class="project-card">
+                    <h3 class="text-2xl font-semibold text-amber-400 mb-2">Task Management System</h3>
+                    <p class="text-gray-300 mb-4">
+                        A collaborative task management application allowing users to create, assign, and track tasks.
+                        Features real-time updates and notifications.
+                    </p>
+                    <p class="text-gray-400 text-sm mb-4">Technologies: React, Node.js, Express, MongoDB, Socket.io</p>
+                    <div class="flex space-x-4">
+                        <a href="https://github.com/your-github/task-manager-mern" target="_blank"
+                            class="hover:underline">GitHub</a>
+                        <a href="#" target="_blank" class="hover:underline">Live Demo (if applicable)</a>
+                    </div>
+                </div>
+                <!-- Project 3 - Example MERN Project -->
+                <div class="project-card">
+                    <h3 class="text-2xl font-semibold text-amber-400 mb-2">Social Media Clone</h3>
+                    <p class="text-gray-300 mb-4">
+                        A simplified social media platform where users can post updates, follow others,
+                        and interact with content.
+                    </p>
+                    <p class="text-gray-400 text-sm mb-4">Technologies: React, Node.js, Express, MongoDB, Cloudinary
+                        (for images)</p>
+                    <div class="flex space-x-4">
+                        <a href="https://github.com/your-github/social-media-clone-mern" target="_blank"
+                            class="hover:underline">GitHub</a>
+                        <!-- <a href="#" target="_blank" class="hover:underline">Live Demo</a> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="text-center">
+            <h2 class="text-4xl font-bold mb-8">Get In Touch</h2>
+            <p class="text-lg text-gray-300 mb-6 leading-relaxed">
+                I'm currently seeking new opportunities as a MERN Stack Developer and would love to connect. Feel free
+                to reach out!
+            </p>
+            <div class="flex justify-center space-x-6 text-2xl">
+                <!-- Professional Email -->
+                <a href="mailto:your.email@example.com"
+                    class="text-amber-400 hover:text-amber-300 transition duration-300" title="Email">
+                    <!-- Placeholder for email icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-mail">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                </a>
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/in/avantika-padhi-a40bb8303/" target="_blank"
+                    class="text-amber-400 hover:text-amber-300 transition duration-300" title="LinkedIn">
+                    <!-- Placeholder for LinkedIn icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-linkedin">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                        <rect x="2" y="9" width="4" height="12"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                </a>
+                <!-- GitHub -->
+                <a href="https://github.com/Avantika-09P?tab=repositories" target="_blank"
+                    class="text-amber-400 hover:text-amber-300 transition duration-300" title="GitHub">
+                    <!-- Placeholder for GitHub icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-github">
+                        <path
+                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 3c-.57 0-1.12.23-1.54.73A9.14 9.14 0 0 0 12 5.5c-2.48 0-4.59 1.45-5.07 3.59-.42-.5-.97-.73-1.54-.73A5.07 5.07 0 0 0 4 4.77c-.54 1.42-.32 2.76.65 3.78A5.44 5.44 0 0 0 2 11.23c0 5.07 3.29 6.26 6.44 6.64-.9.9-1.63 2.22-1.63 3.53v3.54">
+                        </path>
+                    </svg>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-900 text-white p-6 text-center mt-8 rounded-t-lg shadow-inner shadow-amber-500/20">
+        <p>&copy; <span id="current-year"></span> Avantika Padhi. All rights reserved.</p>
+        <p class="text-sm mt-2 text-gray-400">Built with <span class="text-red-500">❤️</span> and Tailwind CSS in the
+            digital cosmos.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
