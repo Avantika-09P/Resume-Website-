@@ -70,10 +70,10 @@ a:hover {
 }
 
 .typed-text {
-    /* Use a larger font size for the typing text */
-    font-size: 4rem; /* Equivalent to text-6xl for larger screens */
-    line-height: 1; /* Adjust line height if needed */
-    border-right: 3px solid; /* Thicker cursor for better visibility */
+    /* Increased font size for the typing text */
+    font-size: 5rem; /* Even larger for desktop */
+    line-height: 1;
+    border-right: 3px solid;
     animation:
         blink-caret 0.75s step-end infinite;
     white-space: nowrap;
@@ -85,14 +85,15 @@ a:hover {
 /* Responsive font size for smaller screens */
 @media (max-width: 768px) {
     .typed-text {
-        font-size: 3rem; /* Adjust for medium screens (md:text-5xl) */
+        font-size: 4rem; /* Adjust for medium screens */
     }
 }
 @media (max-width: 640px) {
     .typed-text {
-        font-size: 2.5rem; /* Adjust for small screens (sm:text-4xl) */
+        font-size: 3rem; /* Adjust for small screens */
     }
 }
+
 
 
 /* Cursor blinking animation */
