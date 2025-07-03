@@ -1,111 +1,111 @@
 body {
-            font-family: 'Inter', sans-serif;
-            background-color: #1a202c; /* Dark charcoal/black for space theme */
-            color: #e2e8f0; /* Light gray for text */
-            line-height: 1.7; /* Increased line-height for better readability */
-            background-image: url('data:image/svg+xml,%3Csvg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%232d3748" fill-opacity="0.4"%3E%3Cpath d="M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0 20v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM6 24v-4H4v4H0v2h4v4h2v-4h4v-2H6zm30-20v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM36 0v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM6 44v-4H4v4H0v2h4v4h2v-4h4v-2H6zm0-20v-4H4v4H0v2h4v4h2v-4h4v-2H6zm30 20v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM36 44v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E'); /* Subtle star/grid pattern */
-            background-size: 60px 60px;
-        }
-        h1, h2, h3 {
-            font-family: 'Space Mono', monospace; /* More techy font for headings */
-            color: #fbbf24; /* Amber/Gold for highlights */
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 2rem; /* Increased container padding */
-        }
-        section {
-            padding: 4rem; /* Increased section padding */
-            margin-bottom: 3rem; /* Increased margin between sections */
-            background-color: #2d3748; /* Darker section background */
-            border-radius: 0.75rem; /* Rounded corners */
-            box-shadow: 0 0 25px rgba(251, 191, 36, 0.15); /* Slightly refined amber glow effect */
-        }
-        .header-bg {
-            background: linear-gradient(to right, #4a0e4e, #7b1fa2); /* Deep purple gradient */
-            color: white;
-            padding: 5rem 2rem; /* Increased padding for hero section */
-            border-radius: 0.75rem;
-            box-shadow: 0 0 40px rgba(251, 191, 36, 0.3); /* Stronger amber glow */
-            margin-bottom: 3rem;
-            text-align: center;
-        }
-        nav {
-            background-color: #3b0764; /* Darker purple for nav */
-            color: #e2e8f0;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Slightly stronger nav shadow */
-        }
-        nav a {
-            transition: color 0.3s ease, text-shadow 0.3s ease;
-            color: #d1d5db; /* Lighter gray for nav links */
-            padding: 0.5rem 0; /* Add padding for click area */
-        }
-        nav a:hover {
-            color: #fbbf24; /* Amber on hover */
-            text-shadow: 0 0 10px #fbbf24; /* Subtle glow on hover */
-        }
-        .project-card {
-            background-color: #4a1c6a; /* Slightly lighter dark purple for cards */
-            border-radius: 0.75rem;
-            padding: 2rem; /* Increased card padding */
-            box-shadow: 0 0 15px rgba(251, 191, 36, 0.1); /* Subtle amber glow */
-            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-        }
-        .project-card:hover {
-            transform: translateY(-8px); /* Slightly more pronounced lift */
-            box-shadow: 0 0 30px rgba(251, 191, 36, 0.4); /* Enhanced glow on hover */
-        }
-        /* Override default Tailwind link colors for consistency */
-        a {
-            color: #fbbf24; /* Amber link color */
-        }
-        a:hover {
-            color: #eab308; /* Darker amber on hover */
-        }
+    font-family: 'Inter', sans-serif;
+    background-color: #1a202c; /* Dark charcoal/black for space theme */
+    color: #e2e8f0; /* Light gray for text */
+    line-height: 1.7; /* Increased line-height for better readability */
+    background-image: url('data:image/svg+xml,%3Csvg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%232d3748" fill-opacity="0.4"%3E%3Cpath d="M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0 20v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM6 24v-4H4v4H0v2h4v4h2v-4h4v-2H6zm30-20v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM36 0v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM6 44v-4H4v4H0v2h4v4h2v-4h4v-2H6zm0-20v-4H4v4H0v2h4v4h2v-4h4v-2H6zm30 20v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM36 44v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E'); /* Subtle star/grid pattern */
+    background-size: 60px 60px;
+}
+h1, h2, h3 {
+    font-family: 'Space Mono', monospace; /* More techy font for headings */
+    color: #fbbf24; /* Amber/Gold for highlights */
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem; /* Increased container padding */
+}
+section {
+    padding: 4rem; /* Increased section padding */
+    margin-bottom: 3rem; /* Increased margin between sections */
+    background-color: #2d3748; /* Darker section background */
+    border-radius: 0.75rem; /* Rounded corners */
+    box-shadow: 0 0 25px rgba(251, 191, 36, 0.15); /* Slightly refined amber glow effect */
+}
+.header-bg {
+    background: linear-gradient(to right, #4a0e4e, #7b1fa2); /* Deep purple gradient */
+    color: white;
+    padding: 5rem 2rem; /* Increased padding for hero section */
+    border-radius: 0.75rem;
+    box-shadow: 0 0 40px rgba(251, 191, 36, 0.3); /* Stronger amber glow */
+    margin-bottom: 3rem;
+    text-align: center;
+}
+nav {
+    background-color: #3b0764; /* Darker purple for nav */
+    color: #e2e8f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Slightly stronger nav shadow */
+}
+nav a {
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+    color: #d1d5db; /* Lighter gray for nav links */
+    padding: 0.5rem 0; /* Add padding for click area */
+}
+nav a:hover {
+    color: #fbbf24; /* Amber on hover */
+    text-shadow: 0 0 10px #fbbf24; /* Subtle glow on hover */
+}
+.project-card {
+    background-color: #4a1c6a; /* Slightly lighter dark purple for cards */
+    border-radius: 0.75rem;
+    padding: 2rem; /* Increased card padding */
+    box-shadow: 0 0 15px rgba(251, 191, 36, 0.1); /* Subtle amber glow */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.project-card:hover {
+    transform: translateY(-8px); /* Slightly more pronounced lift */
+    box-shadow: 0 0 30px rgba(251, 191, 36, 0.4); /* Enhanced glow on hover */
+}
+/* Override default Tailwind link colors for consistency */
+a {
+    color: #fbbf24; /* Amber link color */
+}
+a:hover {
+    color: #eab308; /* Darker amber on hover */
+}
 
-        /* Typing Effect CSS */
-        .typing-container {
-            display: inline-block;
-        }
+/* Typing Effect CSS */
+.typing-container {
+    display: inline-block;
+}
 
-        .typed-text {
-            border-right: 2px solid;
-            animation: 
-                blink-caret 0.75s step-end infinite;
-            white-space: nowrap;
-            overflow: hidden;
-            display: inline-block;
-            vertical-align: bottom;
-        }
+.typed-text {
+    border-right: 2px solid;
+    animation:
+        blink-caret 0.75s step-end infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: bottom;
+}
 
-        /* Cursor blinking animation */
-        @keyframes blink-caret {
-            from, to { border-color: transparent }
-            50% { border-color: white; }
-        }
-        /* Adjusted button styles for more professionalism */
-        .btn-primary {
-            background-color: #fbbf24; /* Amber */
-            color: #1a202c; /* Dark text */
-            font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-amber-600 transition duration-300 hover:shadow-amber-500/50;
-            display: inline-flex; /* For better alignment with icons if any */
-            align-items: center;
-            justify-content: center;
-        }
-        .btn-secondary {
-            background-color: #7b1fa2; /* Purple */
-            color: white;
-            font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-purple-800 transition duration-300 hover:shadow-purple-700/50;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .contact-icon {
-            color: #fbbf24; /* Amber for icons */
-            transition: color 0.3s ease, transform 0.2s ease;
-        }
-        .contact-icon:hover {
-            color: #eab308; /* Darker amber on hover */
-            transform: translateY(-3px); /* Subtle lift */
-        }
+/* Cursor blinking animation */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+}
+/* Adjusted button styles for more professionalism */
+.btn-primary {
+    background-color: #fbbf24; /* Amber */
+    color: #1a202c; /* Dark text */
+    font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-amber-600 transition duration-300 hover:shadow-amber-500/50;
+    display: inline-flex; /* For better alignment with icons if any */
+    align-items: center;
+    justify-content: center;
+}
+.btn-secondary {
+    background-color: #7b1fa2; /* Purple */
+    color: white;
+    font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-purple-800 transition duration-300 hover:shadow-purple-700/50;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-icon {
+    color: #fbbf24; /* Amber for icons */
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+.contact-icon:hover {
+    color: #eab308; /* Darker amber on hover */
+    transform: translateY(-3px); /* Subtle lift */
+}
