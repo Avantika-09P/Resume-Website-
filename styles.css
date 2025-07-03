@@ -9,6 +9,11 @@
             /* Subtle star/grid pattern */
             background-size: 60px 60px;
         }
+        /* Cursor blinking animation */
+        @keyframes blink-caret {
+            from, to { border-color: transparent }
+            50% { border-color: white; } /* Use white for visibility on dark background */
+        }
 
         h1,
         h2,
