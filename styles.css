@@ -36,7 +36,7 @@ nav {
     background-color: #3b0764; /* Darker purple for nav */
     color: #e2e8f0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Slightly stronger nav shadow */
-    padding: 0.75rem; /* Reduced nav padding (p-3) */
+    padding: 0.5rem; /* Reduced nav padding (p-3) */
 }
 nav a {
     transition: color 0.3s ease, text-shadow 0.3s ease;
@@ -72,7 +72,7 @@ a:hover {
 }
 
 .typed-text {
-    font-size: 3rem; /* Main heading text size */
+    font-size: 2rem; /* Main heading text size */
     line-height: 1;
     border-right: 3px solid;
     animation:
