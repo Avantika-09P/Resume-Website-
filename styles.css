@@ -70,7 +70,10 @@ a:hover {
 }
 
 .typed-text {
-    border-right: 2px solid;
+    /* Use a larger font size for the typing text */
+    font-size: 4rem; /* Equivalent to text-6xl for larger screens */
+    line-height: 1; /* Adjust line height if needed */
+    border-right: 3px solid; /* Thicker cursor for better visibility */
     animation:
         blink-caret 0.75s step-end infinite;
     white-space: nowrap;
@@ -78,6 +81,19 @@ a:hover {
     display: inline-block;
     vertical-align: bottom;
 }
+
+/* Responsive font size for smaller screens */
+@media (max-width: 768px) {
+    .typed-text {
+        font-size: 3rem; /* Adjust for medium screens (md:text-5xl) */
+    }
+}
+@media (max-width: 640px) {
+    .typed-text {
+        font-size: 2.5rem; /* Adjust for small screens (sm:text-4xl) */
+    }
+}
+
 
 /* Cursor blinking animation */
 @keyframes blink-caret {
@@ -88,11 +104,17 @@ a:hover {
 .btn-primary {
     background-color: #fbbf24; /* Amber */
     color: #1a202c; /* Dark text */
-    font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-amber-600 transition duration-300 hover:shadow-amber-500/50;
+    font-semibold py-3 px-8 rounded-full shadow-lg;
     display: inline-flex; /* For better alignment with icons if any */
     align-items: center;
     justify-content: center;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Add transition for glow */
 }
+.btn-primary:hover {
+    background-color: #eab308; /* Darker amber on hover */
+    box-shadow: 0 0 25px rgba(251, 191, 36, 0.7), 0 0 50px rgba(251, 191, 36, 0.5); /* Stronger glow */
+}
+
 .btn-secondary {
     background-color: #7b1fa2; /* Purple */
     color: white;
