@@ -9,7 +9,7 @@
 - 🧰 Tech stack overview
 
 ## 🛠️ Tech Used
-HTML • CSS • JavaScript • React (or update with your stack)
+HTML • CSS • JavaScript • React 
 
 ## 🔗 Live Site
 👉 Visit My Resume Website  :  https://avantika-09p.github.io/Resume-Website-/
