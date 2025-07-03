@@ -1,17 +1,3 @@
-// Update current year in footer
-        document.getElementById('current-year').textContent = new Date().getFullYear();
-
-        // Smooth scrolling for navigation links
-        document.querySelectorAll('nav a').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-
         // Typing effect script
         const typingTextElement = document.getElementById('typing-text');
         const phrases = [
@@ -57,3 +43,17 @@
         document.addEventListener('DOMContentLoaded', () => {
             typeWriter();
         });
+
+        // Smooth scrolling for navigation links (re-included for completeness if you lost it)
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Update current year in footer (re-included for completeness if you lost it)
+        document.getElementById('current-year').textContent = new Date().getFullYear();
